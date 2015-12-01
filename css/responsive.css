@@ -4,7 +4,7 @@ Responsive Style
 
 	#site-login .wrapper {
 	    padding: 8px;
-	    background: #CCCCCC;
+	    background: #a1d6e6;
 	    opacity: 0.9;
     	filter: alpha(opacity=90);
 	}
@@ -15,12 +15,13 @@ Responsive Style
 	}
 
 	#header-left-content > a > img {
-		width: 350px;
+		width: 450px;
 	}
 
 	#header-right-content {
-		width: 50%;
-		float: left;
+		padding-top: 40px;
+		padding-right: 20px;
+		float: right;
 		text-align: right;
 	}
 
@@ -822,8 +823,6 @@ Responsive Style
 
 	#site-login {
 		font-size: 13px;
-		padding: 5px;
-		background: #CCCCCC;
 	}
 
 	#site-branding,
@@ -1023,6 +1022,11 @@ Responsive Style
 		height: 50px;
 	}
 
+	#header-right-content {
+	    padding-top: 23px;
+	}
+}
+
 /*--------------------------------------------------------------
 7. x <= 767px
 --------------------------------------------------------------*/
@@ -1042,6 +1046,10 @@ Responsive Style
 
 		#logos_partners > div {
 		height: 40px;
+	}
+
+		#header-right-content {
+	    padding-top: 20px;
 	}
 
 }
@@ -1071,20 +1079,6 @@ Responsive Style
 	    max-width: 25%;
 	}
 
-	#footer-left-content,
-	#footer-right-content {
-		display: block;
-		text-align: center;
-	    width: 100%;
-	}
-
-	#header-left-content,
-	#header-right-content {
-		display: block;
-		text-align: center;
-	    width: 100%;
-	    padding: 2px;
-	}
 
 	#logos_partners > div {
 		height: 30px;
@@ -1160,6 +1154,10 @@ Responsive Style
 
 	#logos_partners > div {
 		height: 25px;
+	}
+
+	#header-right-content {
+	    padding-top: 13px;
 	}
 
 }
@@ -1248,6 +1246,10 @@ Responsive Style
 	    margin-bottom: 0;
 	}
 
+	#header-right-content {
+	    padding-top: 13px;
+	}
+
 }
 
 /*--------------------------------------------------------------
@@ -1309,7 +1311,6 @@ Responsive Style
 	#site-generator {
 		font-size: 11px;
 	}
-
 	#header-left-content,
 	#header-right-content {
 		display: block;
