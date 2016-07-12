@@ -615,7 +615,7 @@ function catchbase_get_content() {
 
 
 // this is the content at the top left
-	$catchbase_content['top_left'] 	= '<a href="http://leia.corsica.eu" alt="Portail <sup>ENT</sup>"><img src="'. get_template_directory_uri() . '/images/partenaires/leia.png" class="logos_partners"></a>';
+	$catchbase_content['top_left'] 	= '<a href="http://www.leia.corsica" alt="Portail <sup>ENT</sup>"><img src="'. get_template_directory_uri() . '/images/partenaires/leia.png" class="logos_partners"></a>';
 // this is the content at the bottom right
 	// <img src="' . get_template_directory_uri() . '/images/login.jpg" class="wp-post-image" alt="se connecter" title="se connecter">
 	$catchbase_content['top_right']	= '&nbsp;<a class="genericon_parent genericon genericon-key" target="_self" href="https://cas.leia.corsica.eu/cas-prod/login?service=https://leia.itslearning.com/elogin/autologin.aspx">se connecter</a>';
